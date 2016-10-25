@@ -49,3 +49,23 @@ console.log('Print beginning at 1',test.substr(1));
 //substring
 var test = "I love funkoPop";
 console.log('Print between index 1 and 4 ', test.substring(1,4));
+
+//to uppercase
+var test = "I love funkoPop";
+console.log('the title is in uppercase', test.toUpperCase());
+
+//to lowercase
+var test = "I HATE FUNKOPOP";
+console.log('the title is in lowercase', test.toLowerCase());
+
+//trim
+var test = "    I love funkoPop    ";
+console.log('"    I love funkoPop    "with trim',test.trim());
+
+
+
+var all = '\t\nmy String   '.toLowerCase().trim();
+console.log(`<h1>all</h1>
+    multi
+lines
+<p>: >>>${all.toUpperCase()}<<<</p>`);
