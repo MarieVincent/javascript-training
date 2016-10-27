@@ -21,6 +21,6 @@ function unpure() {
     //capture the external petitPied object
     //depends on external context, and not only params
     console.log('kick', petitPied.name);
-    //a closure : to avoid
+    //a closure.js : to avoid
 }
 unpure;
