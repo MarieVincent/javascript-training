@@ -7,6 +7,7 @@ contents.forEach(function (content) {
 
 // $('body').text(contents.join(''));
 
+
 function displaySearch(term) {
     clearResult('section.search');
     var contents = search(term);
